@@ -36,9 +36,7 @@ const Feed = () => {
             <form className="relative w-full -flex-center">
                 <input type="text" placeholder="Search for tag or a username" value={searchText} onChange={handleSearchChange} required className="search_input peer" />
             </form>
-            {
-                console.log(posts)
-            }
+            
             <PromptCardList
                 data={posts}
                 handleTagClick={() => {}}
