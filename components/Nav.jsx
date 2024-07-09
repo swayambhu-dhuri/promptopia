@@ -15,7 +15,6 @@ const Nav = () => {
     useEffect(() => {
         const setProvider = async () => {
             const response = await getProviders();
-            console.log("response", response)
             setProviders(response);
         }
 
